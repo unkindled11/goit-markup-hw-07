@@ -1,0 +1,39 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--hero-color);
+}
+
+.contacts-distance {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.adress {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  color: var(--primary-bg-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-contacts-info {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav-link:hover,
+.footer-contacts-info:hover,
+.site-nav-link:focus,
+.footer-contacts-info:focus {
+  color: var(--action-color);
+}

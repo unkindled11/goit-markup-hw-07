@@ -1,0 +1,55 @@
+.icon-container {
+  width: 206px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-flex-box {
+  display: flex;
+  justify-content: center;
+}
+
+.team-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-property: border-radius;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-team-socials {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  background-position: center;
+  fill: #afb1b8;
+}
+
+.icon-mini-box:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-team-socials {
+  fill: currentColor;
+}
+
+.team-socials:hover,
+.team-socials:focus {
+  color: #ffffff;
+  background-color: var(--action-color);
+  border-radius: 50%;
+}
