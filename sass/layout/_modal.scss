@@ -116,7 +116,6 @@
   @include font(null, 14px, 1.71, 0.03em);
   color: var(--secondary-text-color);
   display: flex;
-  
 }
 
 .modal-form__check-icon {
@@ -136,7 +135,7 @@
   align-self: center;
 }
 
-.modal-form__check-text:checked + .modal-form__policy--span {
+.modal-form__check:checked + .modal-form__check-text span {
   background-color: var(--action-color);
   border: none;
   transition-property: background-color;
