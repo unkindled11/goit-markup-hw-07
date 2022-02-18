@@ -6,7 +6,5 @@
   color: #000000;
   font-family: Raleway, sans-serif;
   text-decoration: none;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+  @include font(null, 26px, 1.2, 0.03em);
 }

@@ -36,11 +36,8 @@
 
 .modal__title {
   color: var(--primary-text-color);
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(bold, 20px, 1.15, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .modal-form__field {
@@ -95,12 +92,10 @@
 }
 
 .modal-form__label {
-  font-size: 12px;
+  @include font(null, 12px, 1.16, 0.01em);
   color: #999999;
   display: block;
   margin-bottom: 4px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
   color: var(--secondary-text-color);
   text-align: start;
 }
@@ -118,11 +113,10 @@
 }
 
 .modal-form__check-text {
-  font-size: 14px;
+  @include font(null, 14px, 1.71, 0.03em);
   color: var(--secondary-text-color);
   display: flex;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  
 }
 
 .modal-form__check-icon {

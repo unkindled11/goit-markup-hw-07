@@ -1,3 +1,4 @@
+@import "./utils/mixins";
 @import "./utils/vars";
 @import "./base/reset";
 @import "./layout/header";
@@ -22,7 +23,7 @@
 @import "./layout/modal";
 @import "./utils/overlay";
 @import "./utils/visual-hidden";
-// @import "";
+
 // @import "";
 // @import "";
 // @import "";

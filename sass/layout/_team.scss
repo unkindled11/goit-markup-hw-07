@@ -1,31 +1,22 @@
-.team-title,
-.business-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.member-container {
+.team--container {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-cards {
+.team__cards {
   display: flex;
   justify-content: center;
 }
 
-.team-cards .team-box:not(:last-child) {
+.team__cards .team__box:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-box {
+.team__box {
   width: 270px;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
 }
 
@@ -33,23 +24,18 @@
   background-color: var(--secondary-bg-color);
 }
 
-.team-name {
+.team__name {
+  @include font(500, 16px, 1.18, 0.03em);
   margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
-.team-pos,
-.project-description {
+.team__pos,
+.project-list__description {
   color: var(--secondary-text-color);
 }
 
-.team-pos {
-  font-size: 16px;
-  line-height: 1.18;
+.team__pos {
+  @include font(null, 16px, 1.18, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
 }

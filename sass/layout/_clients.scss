@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.logo-icon-box {
+.logo-container-__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-distance:not(:last-child) {
+.logo-container__distance:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -26,17 +26,16 @@
   fill: currentColor;
 }
 
-.logo-icon-box:hover,
-.logo-icon-box:focus {
+.logo-container-__link:hover,
+.logo-container-__link:focus {
   color: var(--action-color);
 }
 
-.customers-title {
+.customers__title {
   margin-bottom: 50px;
 
+  @include font(none, 36px, 1.16, 0.03em);
   font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
 }
 
 .logo-conta:nth-child(2) {
